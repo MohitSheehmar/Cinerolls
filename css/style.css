@@ -247,7 +247,7 @@ img {
 /* Contact Us page starts */
 
 .background-image {
-    background-image: url(http://127.0.0.1:5500/images/moutain-view-bg.jpg);
+    background-image: url(/images/moutain-view-bg.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
