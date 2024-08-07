@@ -290,10 +290,10 @@ img {
 
 .background-image {
     background-image: url(/images/benjamin.jpg);
-    background-color: aliceblue;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--bg-lightblue);
 }
 
 .info-form {
@@ -315,7 +315,7 @@ textarea {
 
 button[type="btn-submit-contactus"] {
     background-color: var(--bg-btn-primary);
-    color: var(--bg-white);
+    color: var(--bg-black);
     padding: 10px 30px;
     border-radius: 18px;
     border: none;
