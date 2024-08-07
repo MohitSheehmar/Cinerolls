@@ -315,7 +315,7 @@ textarea {
 
 button[type="btn-submit-contactus"] {
     background-color: var(--bg-btn-primary);
-    color: var(--bg-black);
+    color: var(--bg-white);
     padding: 10px 30px;
     border-radius: 18px;
     border: none;
