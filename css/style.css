@@ -1,0 +1,1046 @@
+
+
+:root {
+    --bg-black: #000000;
+    --bg-white: #ffffff;
+    --bg-btn-primary: #1d6fab;
+    --bg-hover-header: #7476e6;
+    --bg-lightblue: #e6f7ff;
+    --bg-lightgrey: #f5f5f5;
+    --bg-grey: #808080;
+    --color-white: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+/* Flex part starts */
+.flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+/* Flex part ends */
+
+
+.nav-items {
+    align-items: center;
+    animation: navani 1s ease forwards;
+    justify-content: space-between;
+}
+
+.nav-item {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-dec {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.p-relative {
+    position: relative;
+}
+
+.top-35 {
+    top: 35px;
+}
+
+
+/* items and contents css part */
+
+.align-item {
+    align-items: center;
+}
+
+.content-end {
+    justify-content: end;
+}
+
+/* items and contens css ends */
+
+
+
+/* Hover part starts */
+.nav-item:hover {
+    color: var(--bg-btn-primary);
+    transition: 0.44s;
+}
+
+/* Hover ends */
+
+
+
+/* colors  */
+
+.bg-black {
+    color: var(--bg-black);
+}
+
+.bg-grey {
+    color: var(--bg-grey);
+}
+
+.bg-white {
+    background-color: var(--bg-white);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.bg-blue {
+    color: blue;
+}
+
+/* colors ends */
+
+
+
+/* opacity starts */
+.opacity {
+    opacity: 0.5;
+}
+
+/* opacity ends */
+
+/* margin starts */
+.m-0 {
+    margin: 0;
+}
+
+.mb-10 {
+    margin-bottom: 5px;
+}
+
+.mt-10 {
+    margin-top: 5px;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
+}
+
+/* margin ends */
+
+
+
+/* Paddings starts */
+.p-tb20-lr10 {
+    padding: 20px 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-12 {
+    padding: 12px;
+}
+
+.p-t16 {
+    padding-top: 16px;
+}
+
+.pt-10 {
+    padding: 10px;
+}
+
+/* Paddings ends */
+
+
+/* Gap css part starts */
+.gap-10 {
+    gap: 10px;
+}
+
+/* Gap CSS part ends */
+
+
+/* Header Part Starts */
+.header-wrapper {
+    padding: 3px 0;
+}
+
+.sticky-header {
+    background-color: white;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.logo {
+    height: 75px;
+}
+
+.signup-icon-svg {
+    height: 22px;
+    color: var(--bg-white);
+    vertical-align: middle;
+}
+
+.btn-primary {
+    text-decoration: none;
+    background-color: var(--bg-btn-primary);
+    border-radius: 20px;
+    padding: 8px 20px;
+    display: inline-block;
+    color: var(--bg-white);
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transition: 0.55s;
+}
+
+
+.cart-svg {
+    height: 30px;
+    display: inline-flex;
+    color: black;
+}
+
+/* Header Part Ends */
+
+
+/* Section first starts of */
+
+.bg-lightblue {
+    background-color: var(--bg-lightblue);
+}
+
+.bg-lightgrey {
+    background-color: var(--bg-lightgrey);
+}
+
+/* Section first ends */
+
+
+/* fonts starts*/
+
+.font-s18 {
+    font-size: 18px;
+}
+
+.font-w-600 {
+    font-weight: 600;
+}
+
+.font-w-700 {
+    font-weight: 700;
+}
+
+.font-s24 {
+    font-size: 24px;
+}
+
+/* fonts ends */
+
+
+/* Letter spacings and heights starts */
+
+.letterspace {
+    letter-spacing: 0.4px;
+}
+
+.line-height {
+    line-height: 1.3;
+}
+
+/* letter spacings and heights ends */
+
+
+
+
+/* Contact Us page starts */
+
+.background-image {
+    background-image: url(/images/benjamin.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-form {
+    margin-bottom: 30px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightgrey;
+}
+
+button[type="btn-submit-contactus"] {
+    background-color: var(--bg-btn-primary);
+    color: var(--bg-white);
+    padding: 10px 30px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+
+.btn-reset {
+    background-color: var(--bg-btn-primary);
+    color: var(--bg-white);
+    padding: 10px 30px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.btn-reset:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Us page ends */
+
+
+
+/* Footer part starts */
+.instagram-svg {
+    padding: 15px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    height: 54px;
+    display: inline-block;
+}
+
+.bg-insta-color {
+    color: #f56040;
+}
+
+.span-footer-disp {
+    display: -ms-inline-grid;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 25px !important;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.social-icons {
+    align-content: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+h5 {
+    margin: 0;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+/* Foooter part ends */
+
+
+/* Portfolio part starts */
+
+.btn-cart {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 18px;
+    background-color: #3499f3;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.btn-cart:hover {
+    background-color: #2a82cf;
+}
+
+
+
+/* Portfolio part ends */
+
+
+/* Cart page css starts */
+.cart-container {
+    display: flex;
+    gap: 2px;
+}
+
+.cart-item {
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.cart-item img {
+    width: 100%;
+}
+
+.cart-item-details {
+    text-align: center;
+}
+
+.cart-item-quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.place-order {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.place-order button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.place-order button:hover {
+    background-color: #0056b3;
+}
+
+.remove-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove-button:hover {
+    background: darkred;
+}
+
+/* Cart page css ends here */
+
+
+/* Payment page css starts */
+.payment-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.pay-now-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pay-now-button:hover {
+    background-color: #0056b3;
+}
+
+/* payment page css ends here. */
+
+
+
+/* Sign in page */
+.signin-section {
+    padding: 40px 0;
+    background-color: var(--bg-lightblue);
+}
+
+.signin-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Loading animation */
+/* Loading animation */
+/* #signinForm button[type="submit"]:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    border-top-color: #007bff;
+    border-radius: 50%;
+    margin-left: 6px;
+    vertical-align: middle;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+ */
+
+
+/* Sign in page css ends */
+
+/* Sign Up page
+/* Form Styles */
+
+.signup-sec {
+    background-color: var(--bg-lightblue);
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: calc(100% - 8px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+select {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="SignUp"] {
+    background-color: var(--bg-btn-primary);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="SignUp"]:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+    display: block;
+}
+
+
+
+/* sign up page css ends */
+
+
+/* Forgot password page css starts */
+.forgot-password-section {
+    text-align: center;
+}
+
+.forgot-password-section form {
+    margin-bottom: 20px;
+}
+
+.forgot-password-section form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.forgot-password-section form input[type=email],
+.forgot-password-section form input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.forgot-password-section form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.forgot-password-section form button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+
+
+
+/* Forgot password page css ends  */
+
+
+/* Widths */
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-33 {
+    width: 33.33%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* width ends */
+
+
+/* Tablet View */
+@media (max-width:1024px) {
+    .tablet-w-10 {
+        width: 10%;
+    }
+
+    .tablet-w-20 {
+        width: 20%;
+    }
+
+    .tablet-w-30 {
+        width: 30%;
+    }
+
+    .tablet-w-40 {
+        width: 40%;
+    }
+
+    .tablet-w-50 {
+        width: 50%;
+    }
+
+    .tablet-w-60 {
+        width: 60%;
+    }
+
+    .tablet-w-70 {
+        width: 70%;
+    }
+
+    .tablet-w-80 {
+        width: 80%;
+    }
+
+    .tablet-w-90 {
+        width: 90%;
+    }
+
+    .tablet-w-100 {
+        width: 100%;
+    }
+
+    .nav-header {
+        display: none;
+    }
+}
+
+/* Tablet view ends */
+
+/* Mobile View */
+@media (max-width:768px) {
+    .mobile-w-10 {
+        width: 10%;
+    }
+
+    .mobile-w-20 {
+        width: 20%;
+    }
+
+    .mobile-w-30 {
+        width: 30%;
+    }
+
+    .mobile-w-40 {
+        width: 40%;
+    }
+
+    .mobile-w-50 {
+        width: 50%;
+    }
+
+    .mobile-w-60 {
+        width: 60%;
+    }
+
+    .mobile-w-70 {
+        width: 70%;
+    }
+
+    .mobile-w-80 {
+        width: 80%;
+    }
+
+    .mobile-w-90 {
+        width: 90%;
+    }
+
+    .mobile-w-100 {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        padding: 12px;
+    }
+
+    .mob-signup {
+        margin: 10px 6px 6px;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mob-flex {
+        flex-wrap: wrap;
+    }
+
+    .f-wrap-n {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .sticky-header {
+        background-color: white;
+        position: unset;
+    }
+
+    .p-relative {
+        position: none;
+    }
+
+    .top-35 {
+        top: 0;
+    }
+
+    /* .mobile-position {
+        bottom: 25px;
+        position: relative;
+        font-size: 14px;
+    }
+
+    .mobile-font-s12 {
+        font-size: 12px;
+    } */
+
+    .mobile-p-0 {
+        padding: 0;
+    }
+
+    .mobile-p-relative {
+        position: relative;
+    }
+
+    .btn-submit {
+        position: relative;
+        bottom: 22px;
+    }
+}
+
+/* Mobile view ends */
+
+
+/* Screen sizes 500px and up */
+/* @media(min-width: 500px) {
+    .mobile-w-10 {
+        width: 10%;
+    }
+
+    .mobile-w-20 {
+        width: 20%;
+    }
+
+    .mobile-w-30 {
+        width: 30%;
+    }
+
+    .mobile-w-40 {
+        width: 40%;
+    }
+
+    .mobile-w-50 {
+        width: 50%;
+    }
+
+    .mobile-w-60 {
+        width: 60%;
+    }
+
+    .mobile-w-70 {
+        width: 70%;
+    }
+
+    .mobile-w-80 {
+        width: 80%;
+    }
+
+    .mobile-w-90 {
+        width: 90%;
+    }
+
+    .mobile-w-100 {
+        width: 90%;
+    }
+
+    .
+} */
+
+
+/* Screen sizes 700px and up */
+/* @media (min-width: 700px) {
+    
+} */
