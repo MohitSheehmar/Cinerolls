@@ -290,6 +290,7 @@ img {
 
 .background-image {
     background-image: url(/images/benjamin.jpg);
+    background-color: aliceblue;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
